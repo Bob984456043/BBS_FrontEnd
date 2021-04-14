@@ -11,12 +11,12 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component:articlelist,
+    component: articlelist,
   },
   {
     path: '/article/:id',
     name: 'article',
-    component:articleview,
+    component: articleview,
   },
   {
     path: '/publish',
